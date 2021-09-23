@@ -8,6 +8,13 @@ h2 {
   margin: 2rem;
 }
 
+article a {
+  text-decoration: underline;
+}
+
+article a:hover {
+  font-weight: bolder;
+}
 article h2 {
   font-size: 2rem;
   font-weight: bold;
@@ -18,6 +25,9 @@ ol {
   margin: 0 4rem;
 }
 
+article sup a {
+  text-decoration: none;
+}
 article div.footnotes {margin: 5rem 0;}
 
 article div.footnotes ol {
