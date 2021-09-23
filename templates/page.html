@@ -1,6 +1,7 @@
 {% extends 'base.html' %} {% block style %}
 <link rel="stylesheet" type="text/css" href="/static/content.css" />
 {% endblock %} {% block content %}
-<h1 class="text-5xl mb-5">{{title}}</h1>
+<h1 class="text-5xl m-5">{{title}}</h1>
+<h3 class="m-5 small">{{date_friendly}}</h3>
 <article class="mx-5">{{content}}</article>
 {% endblock %}

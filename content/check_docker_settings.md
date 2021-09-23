@@ -8,7 +8,7 @@ Two days later, I'm writing this to remind myself of a few things in my docker p
 
 ## If You Get a Licensing Error in Kibana, Check Docker to See If Elasticsearch Is Still Running
 
-Kibana will default to some imaginary Elasticsearch instance[^1] that it can't reach. I do know that part of this is to check for licensing (even if you are using the free license).
+Kibana will default to some imaginary Elasticsearch instance[^1] that it can't reach. I do know that part of this is to check for licensing (even if you are using the free license). This is why you may see the error `{"statusCode":503,"error":"Service Unavailable","message":"License is not available."}`
 
 Elasticsearch containers don't just turn off on their own for no reason so this usually means there is another issue which I will point to in the next step.
 
