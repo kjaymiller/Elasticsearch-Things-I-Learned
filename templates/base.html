@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{SITE_TITLE}}</title>
-</head>
-<body>
-  {% block content %}
-  {% endblock %}
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{SITE_TITLE}}</title>
+    <link rel="stylesheet" type="text/css" href="/static/tailwind.css" />
+    {% block style %} {% endblock %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg-gray-600 mb-6 p-6 text-white flex items-baseline">
+        <h1 class="text-3xl font-bold mr-4">{{SITE_TITLE}}</h1>
+        <h3 class="text-xl"><a href="myblog.html">Posts</a></h3>
+      </div>
+
+      {% block content %} {% endblock %}
+    </div>
+  </body>
 </html>
