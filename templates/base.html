@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>{{SITE_TITLE}}</title>
+    <title>{% block title %}{% endblock%}{{SITE_TITLE}}</title>
     <link rel="stylesheet" type="text/css" href="/static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="/static/tailwind.css" />
     {% block style %} {% endblock %}
