@@ -3,7 +3,7 @@ from render_engine import Site, Page, Collection, Blog
 
 class MySite(Site):
     SITE_TITLE = "Jay's Elastic Stack Blog"
-    SITE_URL = "https://jovial-agnesi-a12033.netlify.app"
+    SITE_URL = "https://elastic-jaymiller.netlify.app/"
     
 site = MySite()
 
@@ -26,5 +26,4 @@ class MyBlog(Blog):
     routes = ["", "pages"]
     # template = "blog_post.html" # This isn't created
 
-print(site.SITE_TITLE)
 site.render(strict=True) # build out the tools

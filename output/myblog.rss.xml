@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jay&#39;s Elastic Stack Blog - MyBlog</title>
-    <link>https://jovial-agnesi-a12033.netlify.app//myblog.rss.xml</link>
+    <link>https://elastic-jaymiller.netlify.app//myblog.rss.xml</link>
     <description></description>
-    <atom:link href="https://jovial-agnesi-a12033.netlify.app//myblog.rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elastic-jaymiller.netlify.app//myblog.rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
 <title>Elasticsearch Docker Requirements (for Playing Around)</title>  <description><![CDATA[<p>Two days later, I'm writing this to remind myself of a few things in my docker playground setup.</p>
@@ -44,7 +44,7 @@
 </div>
 ]]></description>
 
-    <link>https://jovial-agnesi-a12033.netlify.app//elasticsearch-docker-requirements-for-playing-around</link>
+    <link>https://elastic-jaymiller.netlify.app//elasticsearch-docker-requirements-for-playing-around</link>
 <pubDate>Thu, 23 Sep 2021 14:35:00 -0700</pubDate><guid isPermaLink="false">elasticsearch-docker-requirements-for-playing-around</guid></item><item>
 <title>App Search in Kibana. How Does it Feel? Initial Thoughts</title>  <description><![CDATA[<p>The biggest thing in 7.15 is Enterprise Search and the crawler coming to GA. For me that means App Search felt more at home in Kibana.</p>
 
@@ -55,6 +55,6 @@
 <p>There was also the idea of grouped engines which gives me the index pattern vibes. I really thing I'm going to be able to build some hacky (good) systems with Enterprise search.</p>
 ]]></description>
 
-    <link>https://jovial-agnesi-a12033.netlify.app//app-search-in-kibana-how-does-it-feel-initial-thoughts</link>
+    <link>https://elastic-jaymiller.netlify.app//app-search-in-kibana-how-does-it-feel-initial-thoughts</link>
 <pubDate>Thu, 23 Sep 2021 22:37:00 -0700</pubDate><guid isPermaLink="false">app-search-in-kibana-how-does-it-feel-initial-thoughts</guid></item></channel>
 </rss>
