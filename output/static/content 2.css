@@ -1,0 +1,49 @@
+article {2rem 0;}
+
+article code {
+  padding: .25rem;
+  background-color: #cdcdcd;}
+article p,
+h2 {
+  margin: 2rem;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+article a:hover {
+  font-weight: bolder;
+}
+article h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+article ul,
+ol {
+  margin: 0 4rem;
+}
+
+article sup a {
+  text-decoration: none;
+}
+article div.footnotes {margin: 5rem 0;}
+
+article div.footnotes ol {
+  margin: 0;
+  padding: 0 2rem;
+}
+
+article div.footnotes ol li {
+  margin: 0;
+  opacity: 0.50;
+}
+
+article ol li {
+  list-style-type: decimal;
+}
+
+article img {
+  max-width: 85%;
+}
